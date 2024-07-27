@@ -245,12 +245,14 @@ public class Main{
         CarRentalSystem rentalSystem = new CarRentalSystem();
 
         // List of different base price per day for each car
-        Car car1 = new Car("C001", "Toyota", "Fortuner", 10000.0); 
+        Car car1 = new Car("C001", "Toyota", "Fortuner", 15000.0); 
         Car car2 = new Car("C002", "Swift", "Dzire", 2000.0);
         Car car3 = new Car("C003", "Mahindra", "Thar", 6000.0);
+        Car car4 = new Car("C004", "Suzuki", "Gimmny", 12000.0);
         rentalSystem.addCar(car1);
         rentalSystem.addCar(car2);
         rentalSystem.addCar(car3);
+        rentalSystem.addCar(car4);
 
         rentalSystem.menu();
     }
